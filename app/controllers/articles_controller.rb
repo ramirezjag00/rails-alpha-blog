@@ -4,13 +4,20 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    # handle the artcle and display it
-    # render plain: params[:article].inspect
-
     # instance of an article
     @article = Article.new(article_params)
-    @article.save
-    redirect_to articles_show(@article)
+    if @article.save
+      flash[:notice] = "Article was successfully created"
+      # article_ is the prefix of article#show rails routes then path is to its path
+      redirect_to article_path(@article)
+    else
+      # render the form again, this means it went through a validation
+      render 'new'
+    end
+  end
+
+  def show
+    @article = Article.find(params[:id])
   end
 
   # require article as params
