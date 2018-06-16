@@ -1,7 +1,7 @@
 # alpha-blog
 
-### This app is one of the course projects of Ruby on Rails Course in Udemy
+### 1 of the 4 COURSE PROJECTS FROM ['The Complete Ruby on Rails Developer Course' by Rob Percival & Mashrur Hossain](https://www.udemy.com/the-complete-ruby-on-rails-developer-course/)
 
-### This app shows basic CRUD using Ruby on Rails
+### This blog app shows how to do CRUD using Ruby on Rails
 
 #### [Production](https://alpha-blog-n00n3xx.herokuapp.com/)
