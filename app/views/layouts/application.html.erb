@@ -13,6 +13,10 @@
     <%= render 'layouts/navigation' %>
     <!-- by default, render method looks at the articles routes not which dir you are currently in -->
     <%= render 'layouts/messages' %>
-    <%= yield %>
+    <div class="container">
+      <!-- yield is basically the instance of all contents of all views which renders the page depending on with path you are in -->
+      <!-- we want the contents to be inside a container -->
+      <%= yield %>
+    </div>
   </body>
 </html>
