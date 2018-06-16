@@ -16,4 +16,6 @@ RSpec.describe User, type: :model do
   it { should validate_length_of(:email).
       is_at_most(105) }
 
+  it { should validate_length_of(:password_digest).is_at_least(8)}
+
 end
