@@ -4,4 +4,4 @@
 
 ### This app shows basic CRUD using Ruby on Rails
 
-#### Production: alpha-blog-n00n3xx.heroku.com
+#### [Production](https://alpha-blog-n00n3xx.herokuapp.com/)
