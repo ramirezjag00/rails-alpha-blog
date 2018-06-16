@@ -15,8 +15,13 @@ class ArticlesController < ApplicationController
   end
 
   def create
+    # debugger
+    
     # instance of an article
     @article = Article.new(article_params)
+    # will get the first user. (automatically gets the user_id) in database so that each article for now has a User
+    # hardcoded - will delete later after authentication
+    @article.user = User.first
     if @article.save
       flash[:success] = "Article was successfully created"
       # article_ is the prefix of article#show rails routes then path is to its path

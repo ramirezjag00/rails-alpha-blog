@@ -19,5 +19,7 @@
       <%= yield %>
     </div>
     <%= render 'layouts/footer' %>
+    <!-- will show params debugger if the env is development, for example, is when you are in a showpage, it'll show the params -->
+    <!-- <%= debug(params) if Rails.env.development? %> -->
   </body>
 </html>
