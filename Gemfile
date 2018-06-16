@@ -6,6 +6,8 @@ ruby '2.5.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 gem 'bcrypt', '~> 3.1.7'
+gem 'will_paginate', '~> 3.1.6'
+gem 'bootstrap-will_paginate', '~> 1.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use jQuery as require by bootstrap javascript
