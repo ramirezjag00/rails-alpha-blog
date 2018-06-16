@@ -1,24 +1,7 @@
-# README
+# alpha-blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### This app is one of the course projects of Ruby on Rails Course in Udemy
 
-Things you may want to cover:
+### This app shows basic CRUD using Ruby on Rails
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Production: alpha-blog-n00n3xx.heroku.com
