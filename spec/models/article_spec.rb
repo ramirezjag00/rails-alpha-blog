@@ -17,4 +17,6 @@ RSpec.describe Article, type: :model do
 
   it { should validate_length_of(:description).
       is_at_most(300) }
+
+  it { should belong_to(:user) }
 end
