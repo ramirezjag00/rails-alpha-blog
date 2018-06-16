@@ -2,6 +2,7 @@
 <div class="well col-xs-8 col-xs-offset-2">
 	<h4 class="center description"><strong>Description</strong></h4>
 	<hr>
+	<!-- will display description depending on how it looked like when you saved it (tabs, spaces, new lines, etc) -->
 	<%= simple_format(@article.description) %>
 	<div class="article-actions">
 		<%= link_to "Edit this article", edit_article_path(@article), class: "btn btn-xs btn-primary" %>
